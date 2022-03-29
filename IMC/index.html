@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
+    <title>Calcule seu IMC</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <section class="container">
         <h1>IMC</h1>
         <p>Usamos o IMC para calcular o indice de masssa corporal</p>
-        <form action="">
-            <label for="altura">Sua altura em cm:</label>
-            <input type="number" id="input-altura">
+        <form action="/" class="form" method="post">
+            <label for="altura">Sua altura em Metros:</label>
+            <input type="text" id="input-altura" name="input-altura">
             <label for="peso">Seu peso em kgs:</label>
-            <input type="number" id="input-peso">
-            <button>enviar</button>
+            <input type="text" id="input-peso" name="input-peso">
+            <button type="submit">enviar</button>
         </form>
+        <div id="resultado"></div>
     </section>
     <h5>By: Pedro H. S. Morais</h5>
     <script src="./assets/js/main.js"></script>

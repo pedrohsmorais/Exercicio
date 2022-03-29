@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
     --primary-color: rgb(85, 76, 212);
     --green: rgb(44, 187, 39);
@@ -39,7 +40,7 @@ form input {
 
 }
 
-form input {
+form input:focus {
     outline: 1px solid var(--primary-color-draker);
 }
 
@@ -51,18 +52,24 @@ form button {
     font-weight: 700;
     height: 50px;
     cursor: pointer;
+    margin-top: 30px;    
 }
 form button:hover {
     background-color: rgb(51, 11, 70);
 }
 
-form button:active {
-    background: var(--green-draker);
-}
 h5 {
     max-width: 200px;
     margin: 50px auto;
     background: #fff;
     padding: 50px;
     border-radius: 100%;
+}
+.paragrafo-resultado, .bad{
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.bad{
+    background: red;
 }
