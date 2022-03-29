@@ -55,7 +55,7 @@ form button {
     margin-top: 30px;    
 }
 form button:hover {
-    background-color: rgb(51, 11, 70);
+    background: var(--green-draker);
 }
 
 h5 {
