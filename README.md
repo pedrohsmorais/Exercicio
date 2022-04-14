@@ -1,4 +1,2 @@
 # Exercicios
- Nesse repositório encontraremos listas
- de exercícios, que contribuíram para a
- minha prática na programação.
+ Este repositório serviu basicamente para entender o git, e também para praticar um pouco.
